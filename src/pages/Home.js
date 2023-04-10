@@ -30,7 +30,7 @@ const Home = () => {
 
     const handleEnter=(e)=>{
         //or this one will also work--->console.log(e.code)
-        if(e.key=='Enter'){
+        if(e.key==='Enter'){
             joinButtonClick()
         }
     }
